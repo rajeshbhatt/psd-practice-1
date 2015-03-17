@@ -22,18 +22,52 @@
 }
 .inner-text{
 	display: inline-block;
-	background-color: red;
+	/*background-color: red;*/
 	height: 90px;
 	width: 60%;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.inner-text h2{
+	font-size: 16px;
+	color: #c5c5c5;
+}
+.inner-text p{
+	font-size: 14px;
 }
 aside{
 	display: inline-block;
 	float: right;
+	padding: -10px 0 0 0;
 }
 aside ul{
 	padding: 0;
+	margin: 0;
 }
 .social-links{
-	width: 30px;
+	width: 58px;
+	height: 50px;
 	list-style: none;
+}
+.link1{
+	background-image: url(../img/icon1.gif);
+}
+.link2{
+	background-image: url(../img/icon2.gif);
+}
+.link3{
+	background-image: url(../img/icon3.gif);
+}
+.outer-top-container{
+	clear: both;
+	width: 100%;
+	border: 1px solid rgba(197, 197, 197, 0.31);
+	background-image: url(../img/icon.gif) no-repeat;
+}
+.tweet-para{
+	font-size: 10px;
+	font-style: italic;
+	color: #c5c5c5;
+	position: absolute;
+	left: 40px;
 }
