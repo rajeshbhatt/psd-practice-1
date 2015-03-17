@@ -16,6 +16,9 @@
 }
 .inner-top-container{
 	padding: 10px;
+	width: 80%;
+	display: inline-block;
+	float: left;
 }
 .inner-top-container img{
 	float: left;
@@ -34,6 +37,7 @@
 }
 .inner-text p{
 	font-size: 14px;
+	color: #888888;
 }
 aside{
 	display: inline-block;
@@ -62,12 +66,27 @@ aside ul{
 	clear: both;
 	width: 100%;
 	border: 1px solid rgba(197, 197, 197, 0.31);
-	background-image: url(../img/icon.gif) no-repeat;
+	background-color: #EAEAEA;
+	height:50px;
+}
+/*.tweet-para::before{
+	content: '';
+	background: url(../img/icon.gif) no-repeat center center fixed; 
+}*/
+.icon-compose{
+	background: url(../img/icon.gif) no-repeat center center; 
+	height: 46px;
+	display: inline-block;
+	width: 40px;
+
 }
 .tweet-para{
-	font-size: 10px;
+	font-size: 12px;
 	font-style: italic;
 	color: #c5c5c5;
-	position: absolute;
+	/* position: absolute; */
 	left: 40px;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 26px;
 }
