@@ -76,7 +76,7 @@ aside ul{
 
 }
 .icon-2{
-	  background: url(../img/icon-sprite-3.gif) 0 -41px;
+	  background: url(../img/icon-sprite-3.gif) 0 -41px no-repeat;
 	  width: 24px;
 	  height: 22px;
 	  display: inline-block;
@@ -84,7 +84,7 @@ aside ul{
 
 }
 .icon-3{
-	  background: url(../img/icon-sprite-3.gif) 0 -82px;
+	  background: url(../img/icon-sprite-3.gif) 0 -82px no-repeat;
 	  width: 24px;
 	  height: 22px;
 	  display: inline-block;
