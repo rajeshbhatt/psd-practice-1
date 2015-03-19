@@ -1,12 +1,12 @@
 .wrapper{
 	background-color: rgba(197, 197, 197, 0.31);
-	width: 680px;
-	height: 400px;
+	width: 800px;
+	height: 600px;
 	margin: 0 auto;
 	position: relative;
 }
 .container{
-	width: 60%;
+	width: 65%;
 	height: 200px;
 	background-color: #fff;
 	margin: 0 auto;
@@ -14,15 +14,15 @@
 	top: 100px;
 	left: 140px;
 }
-.inner-top-container{
+/*.inner-top-container{
 	padding: 10px;
 	width: 80%;
 	display: inline-block;
 	float: left;
-}
-.inner-top-container img{
+}*/
+/*.inner-top-container img{
 	float: left;
-}
+}*/
 .inner-text{
 	display: inline-block;
 	/*background-color: red;*/
@@ -39,7 +39,7 @@
 	font-size: 14px;
 	color: #888888;
 }
-aside{
+/*aside{
 	display: inline-block;
 	float: right;
 	padding: -10px 0 0 0;
@@ -47,21 +47,49 @@ aside{
 aside ul{
 	padding: 0;
 	margin: 0;
-}
+}*/
 .social-links{
-	width: 58px;
-	height: 50px;
+	width: 68px;
+	height: 60px;
 	list-style: none;
-	text-indent: -9999px;
+	
 }
 .link1{
-	background-image: url(../img/icon1.gif);
+	/*background: url(../img/icon-sprite-3.gif) no-repeat 0 -2px;
+	width: 24px;
+	height: 68px;*/
+	background-color: #00aff0;
 }
 .link2{
-	background-image: url(../img/icon2.gif);
+	
+	background-color:#fad316;
 }
 .link3{
-	background-image: url(../img/icon3.gif);
+	background-color:#31353e;
+}
+.icon-1{
+	  background-image: url(../img/icon-sprite-3.gif);
+	  width: 24px;
+	  height: 22px;
+	  display: inline-block;
+	  margin: 10px 22px 10px 22px;
+
+}
+.icon-2{
+	  background: url(../img/icon-sprite-3.gif) 0 -41px;
+	  width: 24px;
+	  height: 22px;
+	  display: inline-block;
+	  margin: 7px 22px 7px 22px;
+
+}
+.icon-3{
+	  background: url(../img/icon-sprite-3.gif) 0 -82px;
+	  width: 24px;
+	  height: 22px;
+	  display: inline-block;
+	  margin: 7px 22px 7px 22px;
+
 }
 .outer-top-container{
 	clear: both;
@@ -90,4 +118,68 @@ aside ul{
 	display: inline-block;
 	vertical-align: top;
 	line-height: 26px;
+}
+
+/*modifeid*/
+.main-container{
+	width: 452px;
+	padding: 22px;
+	box-sizing:border-box;
+	float: left;
+}
+.profile-pic{
+	width: 110px;
+	margin:0;
+	display: inline-block;
+	float: left;
+}
+img{
+	max-width: 100%;
+}
+.inner-text{
+	display: inline-block;
+	float: left;
+}
+.inner-text h2{
+	font-size: 18px;
+}
+.inner-text h3{
+	font-size: 14px;
+	color: #a5a5a5;
+}
+.right-container{
+	display: inline-block;
+}
+.right-container ul{
+	padding: 0;
+	margin: 0;
+}
+.footer{
+	height: 70px;
+	border: 1px solid #ececec;
+	border-left: 0;
+	background-color: #f9f9f9;
+	font-family: OpenSans Semibold;
+}
+a{
+	text-decoration: none;	
+	text-align: center;
+	display: block;
+	color: #fff;
+	font-size: 12px;
+}
+.compose{
+	background: url('../img/compose-icon.gif') no-repeat 0 0;
+	width: 35px;
+    height: 36px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 13px;
+}
+.footer p{
+	display: inline-block;
+  	color: #b6b6b6;
+  	margin-top: 29px;
+  	font-size: 12px;
+  	font-style: italic;
 }
